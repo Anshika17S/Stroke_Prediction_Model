@@ -6,13 +6,15 @@ This project uses a Decision Tree Classifier to predict the likelihood of a stro
 
 ## 📂 Project Structure
 
-├── StrokePrediction_WithPipelines.ipynb          # Main ML pipeline notebook
-├── Prediction_Using_Pipeline.ipynb               # Prediction logic using trained pipeline
-├── healthcare-dataset-stroke-data.csv            # Dataset (from Kaggle)
-├── pipe.pkl                                      # Saved model pipeline 
-├── requirements.txt                              # List of Python packages required
-└── README.md                                     # Project documentation
-
+```bash
+Stroke_Prediction_Model/
+│   ├── StrokePrediction_WithPipelines.ipynb          # Main ML pipeline notebook
+│   ├── Prediction_Using_Pipeline.ipynb               # Prediction logic using trained pipeline
+│   ├── healthcare-dataset-stroke-data.csv            # Dataset (from Kaggle)
+│   ├── pipe.pkl                                      # Saved model pipeline 
+│   ├── requirements.txt                              # List of Python packages required
+│   └── README.md                                     # Project documentation
+```
 
 ---
 
@@ -74,3 +76,4 @@ pip install -r requirements.txt
 ## 📝 License
 
 This project is licensed under the [MIT License](LICENSE).
+
